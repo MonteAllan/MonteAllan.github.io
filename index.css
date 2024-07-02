@@ -133,7 +133,6 @@ main{
 }
 .sessao{
     height: 170vh;
-    background-color: blue;
 }
 .areaimg{
     background-color: beige;
@@ -160,7 +159,7 @@ main{
     display: flex;
     justify-content: center;
 }
-.banner2{
+.banner2, .areabanner2{
     background-color: #fff;
     max-width: 1140px;
     margin: auto;
@@ -168,26 +167,71 @@ main{
 
 }
 .areabanner1, .areabanner2{
-    background-color: aqua;
     height: 50%;
 }
 .areabanner1, .areabanner2{
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
 }
 .areabanner1 .im1, .im2, .im3, .im4{
-    background-color: azure;
+    background-color: #f5f1f1;
     margin: 15px;
     width: 230px;
 }
-.banner2 h3{
+.banner2 h3, .areabanner2 h3{
+    padding-top: 10px;
     margin: 7px;
     text-align: center;
     text-transform: uppercase;    
 }
 .areabanner2 .im1, .im2, .im3, .im4{
-    background-color: azure;
+    background-color: #f5f1f1;
     margin: 15px;
     width: 230px;
+}
+
+
+.im1, .im2, .im3, .im4{
+    border-radius: 12px;
+    padding: 10px;
+}
+.im1 img, .im2 img, .im3 img, .im4 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.im1 h3, .im2 h3, .im3 h3, .im4 h3{
+    text-align: left;
+    font-size: 17px;
+}
+.im1 p, .im2 p, .im3 p, .im4 p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.arecompr{
+    display: flex;
+    height: 60px;
+    align-items:flex-end;
+}
+h4{
+
+    flex: 1;
+    display: flex;
+    height: 25px;
+    align-items: center;
+}
+.arecompr .cpra{
+    display: flex;
+    justify-content: flex-end;
+    color: #f2f2f2;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 8px;
+    background-color:rgb(31, 30, 30);
+    text-decoration: none;
+    cursor: pointer;
 }
